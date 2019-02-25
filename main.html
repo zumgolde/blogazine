@@ -1,12 +1,12 @@
 ---
 layout: default
 ref: index
-lang: de
+lang: en
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Beiträge</h1>
+  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -21,6 +21,6 @@ lang: de
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">verfolge das Geschehen <a href="{{ "/futter.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

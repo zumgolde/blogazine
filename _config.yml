@@ -7,19 +7,23 @@
 
 # Site settings
 title:
+  de: Der Hammer-Titel
   en: Your awesome title
   fr: Votre titre génial
 email: your-email@domain.com
 description:
+  de: Schreibe eine tolle Zusammenfassung deiner Inhalte. Diese Zeile kann in der Datei _config.yml bearbeitet werden. Sie wird in den Metadaten der HTML-Seite und somit auch als Google-Suchergebnis und im Newsfeed feed.xml erscheinen.
   en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
 index:
-  en:
+  de: 
+  en: main.html
   fr: accueil.html
 feed:
+  de: /futter.xml
   en: /feed.xml
   fr: /flux.xml
-baseurl: "/jekyll-multilingual" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
